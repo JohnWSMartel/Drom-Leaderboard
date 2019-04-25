@@ -1,6 +1,6 @@
 const models = require('../models');
 
-const Scores = models.scores;
+const scores = models.scores;
 
 const setScore = (req, res) => {
   if (!req.body.team || !req.body.score || !req.body.streak) {
@@ -15,7 +15,7 @@ const setScore = (req, res) => {
     streak: req.body.streak,
   };
 
-  const newScore = new Scores.ScoreModel(teamData);
+  const newScore = scores.scoreModel(teamData);
 
   const scorePromise = newScore.save();
 
@@ -43,7 +43,7 @@ const getScores = (request, response) => {
   // const req = request;
   const res = response;
 
-  return Scores.scoreModel.findAll((err, docs) => {
+  return scores.scoreModel.findAll((err, docs) => {
     if (err) {
       console.log(err);
       return res.status(400).json({

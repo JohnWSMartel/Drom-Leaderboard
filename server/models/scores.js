@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 mongoose.Promise = global.Promise;
 const _ = require('underscore');
 
-let ScoreModel = {};
+let scoreModel = {};
 
 // mongoose.Types.ObjectID is a function that
 // converts string ID to real mongo ID
@@ -39,9 +39,9 @@ scoreSchema.statics.toAPI = (doc) => ({
 });
 
 scoreSchema.statics.findAll = (callback) =>
-    ScoreModel.find().select('team score streak').exec(callback);
+    scoreModel.find().select('team score streak').exec(callback);
 
-ScoreModel = mongoose.model('Score', scoreSchema);
+scoreModel = mongoose.model('Score', scoreSchema);
 
-module.exports.scoreModel = ScoreModel;
+module.exports.scoreModel = scoreModel;
 module.exports.scoreSchema = scoreSchema;
