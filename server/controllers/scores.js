@@ -5,7 +5,7 @@ const Scores = models.scores;
 const setScore = (req, res) => {
   if (!req.body.team || !req.body.score || !req.body.streak) {
     return res.status(400).json({
-      error: 'Not all fields are filled.'
+      error: 'Not all fields are filled.',
     });
   }
 
@@ -15,7 +15,7 @@ const setScore = (req, res) => {
     streak: req.body.streak,
   };
 
-  const newScore = new Scores.scoreModel(teamData);
+  const newScore = new Scores.ScoreModel(teamData);
 
   const scorePromise = newScore.save();
 
@@ -27,12 +27,12 @@ const setScore = (req, res) => {
     console.log(err);
     if (err.code === 11000) {
       return res.status(400).json({
-        error: 'Score already exists.'
+        error: 'Score already exists.',
       });
     }
 
     return res.status(400).json({
-      error: 'An error occured'
+      error: 'An error occured',
     });
   });
 
@@ -40,19 +40,19 @@ const setScore = (req, res) => {
 };
 
 const getScores = (request, response) => {
-  const req = request;
+  // const req = request;
   const res = response;
 
   return Scores.scoreModel.findAll((err, docs) => {
     if (err) {
       console.log(err);
       return res.status(400).json({
-        error: 'An error occured'
+        error: 'An error occured',
       });
     }
 
     return res.json({
-      scores: docs
+      scores: docs,
     });
   });
 };
