@@ -1,3 +1,8 @@
+@font-face{
+    font-family: 'Futura';
+    src: url();
+}
+
 *{
     font-family: 'Futura';
     font-weight: bold;
@@ -29,6 +34,10 @@ h3{
     margin-left: 5%;
 }
 
+p{
+    width: 15%;
+}
+
 .data{
     margin-bottom: 5%;
 }
@@ -36,13 +45,14 @@ h3{
 .number{
     display: inline-block;
     margin-left: 15%;
-    width: 20px;
+    width: 119px;
 }
 
 .teamName{
+    text-align: center;
     display: inline;
-    margin-left: 25%;
-    width: 50%;
+    margin-left: 22%;
+    width: 200px;
 }
 
 .teamScore{

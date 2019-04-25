@@ -21,8 +21,7 @@ const getUpdate = () => {
             let loopTimes = 20;
             if(scores.length < loopTimes) {
                 loopTimes = scores.length;
-            }
-            
+            }            
             let scoresDiv = document.querySelector("#scores");
             scoresDiv.innerHTML = "";
             for(let i = 0; i < loopTimes; i++) {
@@ -51,12 +50,9 @@ const getUpdate = () => {
                 
                 scoresDiv.appendChild(div);
             }
-
-
         },
         error: (xhr, status, error) => {
             const messageObj = JSON.parse(xhr.responseText);
-
             handleError(messageObj.error);
         }
     });
