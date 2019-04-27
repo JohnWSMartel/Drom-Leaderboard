@@ -62,6 +62,7 @@ p{
     text-align: center;
     display: inline;
     width: 500px;
+    color: green;
 }
 
 .teamScore{
@@ -69,7 +70,6 @@ p{
     width: 130px;
     display: inline;
     text-align: center;
-    color: green;
 }
 
 .teamStreak{
