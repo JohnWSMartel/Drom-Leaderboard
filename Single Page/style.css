@@ -58,13 +58,14 @@ p{
 }
 
 .teamName{
+    text-align: left;
     margin-left: 100px;
     display: inline-block;
     width: 500px;
 }
 
 .teamScore{
-    margin-left: 300px;
+    margin-left: 305px;
     width: 130px;
     display: inline-block;
     text-align: center;
