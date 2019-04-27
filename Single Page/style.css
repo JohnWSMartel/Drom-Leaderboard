@@ -8,7 +8,7 @@
     font-weight: bold;
     background-image: url("Assets/Background.png");
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: fill;
     color: white;
 }
 
