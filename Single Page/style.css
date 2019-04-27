@@ -59,21 +59,19 @@ p{
 
 .teamName{
     margin-left: 100px;
-    text-align: center;
     display: inline-block;
     width: 500px;
-    color: green;
 }
 
 .teamScore{
-    margin-left: 100px;
+    margin-left: 300px;
     width: 130px;
     display: inline-block;
     text-align: center;
 }
 
 .teamStreak{
-    width: 89px;
+    width: 300px;
     display: inline-block;
     text-align: center;
     font-size: 35pt;
