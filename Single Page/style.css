@@ -38,7 +38,7 @@ h2{
 }
 
 h3{
-    font-size: 36pt;
+    font-size: 28pt;
 }
 
 p{
@@ -52,7 +52,7 @@ p{
 }
 
 .number{
-    margin-left: 300px;
+    margin-left: 200px;
     display: inline-block;
     width: 119px;
     font-size: 35pt;
