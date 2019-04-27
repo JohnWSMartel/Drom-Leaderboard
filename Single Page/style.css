@@ -21,7 +21,7 @@ h1{
 }
 
 h2,h3{
-    
+    margin-left: 300px;
     text-align: center;
     display: inline-block
 }
@@ -31,7 +31,8 @@ h2{
 }
 
 #teamLabel{
-    width: 302px;
+    margin-left: 100px;
+    width: 800px;
     text-align: center;
     font-size: 48pt;
 }
@@ -51,18 +52,21 @@ p{
 }
 
 .number{
+    margin-left: 300px;
     display: inline-block;
     width: 119px;
     font-size: 35pt;
 }
 
 .teamName{
+    margin-left: 100px;
     text-align: center;
     display: inline;
-    width: 302px;
+    width: 800px;
 }
 
 .teamScore{
+    margin-left: 100px;
     width: 130px;
     display: inline;
     text-align: center;
