@@ -7,7 +7,6 @@
     font-family: 'Futura';
     font-weight: bold;
     color: white;
-    height: 50px;
 }
 
 body{
@@ -81,6 +80,11 @@ p{
     display: inline-block;
     text-align: center;
     font-size: 35pt;
+}
+
+#scores{
+    
+    height: 60px;
 }
 
 form{
