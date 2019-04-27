@@ -50,11 +50,11 @@ p{
 }
 
 .data{
-    height: 86px;
+    height: 100px;
 }
 
 .number{
-    margin-left: 200px;
+    margin-left: 220px;
     display: inline-block;
     width: 119px;
     font-size: 35pt;
@@ -75,11 +75,10 @@ p{
 }
 
 .teamStreak{
-    margin-left: 275px;
+    margin-left: 255px;
     width: 300px;
     display: inline-block;
     text-align: center;
-    font-size: 35pt;
 }
 
 form{
