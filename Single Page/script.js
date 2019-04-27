@@ -18,7 +18,7 @@ const getUpdate = () => {
             scores = result.scores;
             scores.sort(compare);
             
-            let loopTimes = 20;
+            let loopTimes = 15;
             if(scores.length < loopTimes) {
                 loopTimes = scores.length;
             }            
