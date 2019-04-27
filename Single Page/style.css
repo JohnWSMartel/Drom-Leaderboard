@@ -68,13 +68,13 @@ p{
 .teamScore{
     margin-left: 100px;
     width: 130px;
-    display: inline;
+    display: inline-block;
     text-align: center;
 }
 
 .teamStreak{
     width: 89px;
-    display: inline;
+    display: inline-block;
     text-align: center;
     font-size: 35pt;
 }
