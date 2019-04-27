@@ -50,7 +50,7 @@ p{
 }
 
 .data{
-    
+    height: 60px;
 }
 
 .number{
@@ -80,11 +80,6 @@ p{
     display: inline-block;
     text-align: center;
     font-size: 35pt;
-}
-
-#scores{
-    
-    height: 60px;
 }
 
 form{
