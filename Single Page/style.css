@@ -88,3 +88,7 @@ form{
     display: inline-block;
     font-size: 40px;
 }
+
+input{
+    color: black;
+}
