@@ -57,19 +57,16 @@ p{
 .teamName{
     text-align: center;
     display: inline;
-    margin-left: 22%;
     width: 200px;
 }
 
 .teamScore{
     display: inline;
     text-align: center;
-    margin-left: 23%;
 }
 
 .teamStreak{
     display: inline;
-    margin-left: 9%;
     text-align: center;
 }
 
