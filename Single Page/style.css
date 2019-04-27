@@ -32,7 +32,7 @@ h2{
 
 #teamLabel{
     margin-left: 100px;
-    width: 800px;
+    width: 500px;
     text-align: center;
     font-size: 48pt;
 }
@@ -62,7 +62,7 @@ p{
     margin-left: 100px;
     text-align: center;
     display: inline;
-    width: 800px;
+    width: 500px;
 }
 
 .teamScore{
