@@ -28,9 +28,11 @@ h2,h3{
 
 h2{
     font-size: 48pt;
+    color: #30C78A;
 }
 
 #teamLabel{
+    color: #EC81FB;
     margin-left: 100px;
     width: 500px;
     text-align: center;
@@ -39,6 +41,7 @@ h2{
 
 h3{
     font-size: 28pt;
+    color: #4FBFEE;
 }
 
 p{
@@ -51,7 +54,6 @@ p{
 }
 
 .number{
-    color: orange;
     margin-left: 200px;
     display: inline-block;
     width: 119px;
@@ -59,7 +61,6 @@ p{
 }
 
 .teamName{
-    color: pink;
     text-align: left;
     margin-left: 160px;
     display: inline-block;
@@ -67,7 +68,6 @@ p{
 }
 
 .teamScore{
-    color: green;
     margin-left: 305px;
     width: 130px;
     display: inline-block;
@@ -75,8 +75,7 @@ p{
 }
 
 .teamStreak{
-    color: blue;
-    margin-left: 300px;
+    margin-left: 275px;
     width: 300px;
     display: inline-block;
     text-align: center;
@@ -88,8 +87,4 @@ form{
     margin-left: auto;
     display: inline-block;
     font-size: 40px;
-}
-
-form:focus {
-    color: black;
 }
