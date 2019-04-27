@@ -42,12 +42,12 @@ h3{
 }
 
 p{
-    font-size: 32pt;
+    font-size: 40pt;
     text-align: center;
 }
 
 .data{
-    margin-bottom: 2%;
+    margin-bottom: 1%;
 }
 
 .number{
@@ -83,5 +83,8 @@ form{
     margin-left: auto;
     display: inline-block;
     font-size: 40px;
+}
+
+form:focus {
     color: black;
 }
