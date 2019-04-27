@@ -27,11 +27,13 @@ h2,h3{
 }
 
 h2{
-    font-size: 42pt;
+    
 }
 
 #teamLabel{
+    width: 302px;
     text-align: center;
+    font-size: 48pt;
 }
 
 h3{
@@ -39,7 +41,7 @@ h3{
 }
 
 p{
-    font-size: 20pt;
+    text-align: center;
     width: 15%;
 }
 
@@ -50,22 +52,26 @@ p{
 .number{
     display: inline-block;
     width: 119px;
+    font-size: 27pt;
 }
 
 .teamName{
     text-align: center;
     display: inline;
-    width: 200px;
+    width: 302px;
 }
 
 .teamScore{
+    width: 122px;
     display: inline;
     text-align: center;
 }
 
 .teamStreak{
+    width: 89px;
     display: inline;
     text-align: center;
+    font-size: 27pt;
 }
 
 form{
