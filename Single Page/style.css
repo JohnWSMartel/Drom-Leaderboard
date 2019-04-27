@@ -60,7 +60,7 @@ p{
 .teamName{
     margin-left: 100px;
     text-align: center;
-    display: inline;
+    display: inline-block;
     width: 500px;
     color: green;
 }
