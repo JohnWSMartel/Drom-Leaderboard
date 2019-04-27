@@ -7,12 +7,16 @@
     font-family: 'Futura';
     font-weight: bold;
     background-image: url("Assets/Background.png");
+    background-repeat: no-repeat;
+    background-size: auto;
     color: white;
 }
 
 h1{
     text-align: center;
 	font-size: 72pt;
+    margin-top: 300px;
+    margin-bottom: 150px;
 }
 
 h2,h3{
@@ -22,7 +26,7 @@ h2,h3{
 }
 
 h2{
-    
+    font-size: 42pt;
 }
 
 #teamLabel{
@@ -36,6 +40,7 @@ h3{
 }
 
 p{
+    font-size: 20pt;
     width: 15%;
 }
 
