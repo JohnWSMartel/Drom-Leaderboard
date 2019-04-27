@@ -6,8 +6,11 @@
 *{
     font-family: 'Futura';
     font-weight: bold;
-    background-image: url("Assets/Background.png");
     color: white;
+}
+
+body{
+    background-image: url("Assets/Background.png");
 }
 
 h1{
@@ -29,12 +32,10 @@ h2{
 
 #teamLabel{
     text-align: center;
-    margin-right: 20%;
-    margin-left: 40%;
 }
 
 h3{
-    margin-left: 5%;
+    
 }
 
 p{
@@ -48,7 +49,6 @@ p{
 
 .number{
     display: inline-block;
-    margin-left: 15%;
     width: 119px;
 }
 
